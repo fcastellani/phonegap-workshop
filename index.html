@@ -1,14 +1,40 @@
 <html>
 <body>
-
+<!--
 <div class='header'><h1>Home</h1></div>
 <div class='search-view'>
 <input class='search-key' type="text"/>
 <ul class='employee-list'></ul>
 </div>
+<-->
+<div id="mcontent">
+     <div id="swrapper">
+         <div id="islider">
+            <div class="btn-group btn-group-justified">
+                <a class="btn btn-default" href="#">Mrs</a>
+                <a class="btn btn-default" href="#">Ms.</a>
+                <a class="btn btn-default" href="#">Mr.</a>
+             </div>
+             <form>
+                 <input type="text" name="firstname" placeholder="Firstname">
+                 <input type="text" name="lastname" placeholder="Last Name">
+                 <p><input type="text" name="email" placeholder="Email"></p>
+                 <p>Must be at least 8 characters long</p>
+                 <input type="password" placeholder="Password">
+                 <input type="password" placeholder="Password repeat">
+                 <p><button type="submit" class="btn btn-primary btn-large btn-  block">Submit</button></p>
+                 <p><span id="dclaimer">By registering you confirm that you accept our Terms of Use and Privacy Policy</span></p>
+             </form>
+        </div>        
+    </div>
+</div>
+
+<link href='./css/bootstrap-theme.min.css' rel='stylesheet' type='text/css'>
+<link href='./css/bootstrap.min.css' rel='stylesheet' type='text/css'>
 
 <script src="lib/jquery-1.8.2.min.js"></script>
 <script src="js/storage/memory-store.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 <script src="phonegap.js"></script>
 
