@@ -1,41 +1,71 @@
-<html>
-<body>
-<!--
-<div class='header'><h1>Home</h1></div>
-<div class='search-view'>
-<input class='search-key' type="text"/>
-<ul class='employee-list'></ul>
-</div>
-<-->
-<div id="mcontent">
-     <div id="swrapper">
-         <div id="islider">
-            <div class="btn-group btn-group-justified">
-                <a class="btn btn-default" href="#">Mrs</a>
-                <a class="btn btn-default" href="#">Ms.</a>
-                <a class="btn btn-default" href="#">Mr.</a>
-             </div>
-             <form>
-                 <input type="text" name="firstname" placeholder="Firstname">
-                 <input type="text" name="lastname" placeholder="Last Name">
-                 <p><input type="text" name="email" placeholder="Email"></p>
-                 <p>Must be at least 8 characters long</p>
-                 <input type="password" placeholder="Password">
-                 <input type="password" placeholder="Password repeat">
-                 <p><button type="submit" class="btn btn-primary btn-large btn-  block">Submit</button></p>
-                 <p><span id="dclaimer">By registering you confirm that you accept our Terms of Use and Privacy Policy</span></p>
-             </form>
-        </div>        
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <link href='./css/bootstrap-theme.min.css' rel='stylesheet' type='text/css'>
+        <link href='./css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+     
+        <title>Starter Template for Bootstrap</title>
+    </head>
+    <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </div>
-</div>
 
-<link href='./css/bootstrap-theme.min.css' rel='stylesheet' type='text/css'>
-<link href='./css/bootstrap.min.css' rel='stylesheet' type='text/css'>
 
-<script src="lib/jquery-1.8.2.min.js"></script>
+<div class="container">
+
+      <div class="page-header">
+        <h1>Non-responsive Bootstrap</h1>
+        <p class="lead">Disable the responsiveness of Bootstrap by fixing the width of the container and using the first grid system tier.</p>
+      </div>
+
+      <h3>What changes</h3>
+      <p>Note the lack of the <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>, which disables the zooming aspect of sites in mobile devices. In addition, we reset our container's width and are basically good to go.</p>
+
+      <h3>Regarding navbars</h3>
+      <p>As a heads up, the navbar component is rather tricky here in that the styles for displaying it are rather specific and detailed. Overrides to ensure desktop styles display are not as performant or sleek as one would like. Just be aware there may be potential gotchas as you build on top of this example when using the navbar.</p>
+
+      <h3>Non-responsive grid system</h3>
+      <div class="row">
+        <div class="col-xs-4">One third</div>
+        <div class="col-xs-4">One third</div>
+        <div class="col-xs-4">One third</div>
+      </div>
+
+      <h3>Regarding navbars</h3>
+      <p>As a heads up, the navbar component is rather tricky here in that the styles for displaying it are rather specific and detailed. Overrides to ensure desktop styles display are not as performant or sleek as one would like. Just be aware there may be potential gotchas as you build on top of this example when using the navbar.</p>
+
+      <h3>Regarding navbars</h3>
+      <p>As a heads up, the navbar component is rather tricky here in that the styles for displaying it are rather specific and detailed. Overrides to ensure desktop styles display are not as performant or sleek as one would like. Just be aware there may be potential gotchas as you build on top of this example when using the navbar.</p>
+    </div> <!-- /container -->
+
 <script src="js/storage/memory-store.js"></script>
-<script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
+
+<script src="lib/jquery-1.10.2.min.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+
 <script src="phonegap.js"></script>
 
 </body>
